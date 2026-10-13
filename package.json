@@ -1,11 +1,15 @@
+
 {
-  "name": "appwrite_function",
+  "name": "ciphertext-sponsor-webhook",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "private": true,
+  "type": "module",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js"
   },
-  "keywords": [],
-  "type": "commonjs"
+  "dependencies": {
+    "node-appwrite": "^17.0.0",
+    "standardwebhooks": "^1.0.0"
+  }
 }
